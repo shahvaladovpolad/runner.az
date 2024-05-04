@@ -1,0 +1,137 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.header-first{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header-first ul{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+  
+}
+.header-first ul a{
+    text-decoration: none;
+    height: 100%;
+    color: #000;
+}
+
+.hero-img img {
+    width: 525px;
+}
+button{
+    background-color: red;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    color:#fff
+}
+.description-Runner{
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+.title-Runner{
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+.values-grid{
+    display: flex;
+    gap: 15px;
+    
+}
+.our-box{
+    text-align: center;
+    position: relative;
+    border-radius: 21px;
+    width: 100%;
+    padding: 27px;
+    margin-bottom: 25px;
+}
+.our-box h5{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 30px;
+}
+.title-Runner{
+    color: #000;
+}
+.services-box{
+   background: #F7F9FF; 
+   position: relative;
+   transition: all 0.3s;
+   border-radius: 21px;
+   width: 100%;
+   padding: 27px;
+   margin-bottom: 25px;
+   text-align: center;
+    
+}
+.icon{
+    font-size: 35px;
+}
+.number-box-all{
+display: flex;
+gap: 10px;
+}
+.numbers-box{
+    width: 29%;
+    text-align: center;
+}
+.title-services{
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+.text-services{
+    width: 750px;
+    margin: auto; 
+}
+.numbers-box{
+    background: #F7F9FF; 
+    position: relative;
+    transition: all 0.3s;
+    border-radius: 21px;
+    width: 100%;
+    padding: 27px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.picture {
+width: 271px;
+}
+
+
+.hero-row {
+    justify-content: space-between;
+    align-items: center;
+}
+.pictures {
+    width: 434px;
+}
+.end-row{
+    justify-content:space-between ;
+    align-items: center;
+}
+.picture-number{
+    width: 475px;
+}
+.number-row{
+    justify-content: space-between;
+    align-items: center;
+}
